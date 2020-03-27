@@ -16,4 +16,11 @@ class FizzBuzz
     {
         return ($number % 5 === 0) ? 'Buzz' : false;
     }
+
+    public function print($number)
+    {
+        return (!($this->isFizz($number)) && !($this->isBuzz($number))) 
+          ? $number : 
+          $this->isFizz($number) . $this->isBuzz($number);
+    }
 }
