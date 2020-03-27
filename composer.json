@@ -1,0 +1,12 @@
+{
+    "name": "ali/excercise1_fizzbuzz",
+    "description": "Exercise 1: FizzBuzz algorithm (PHP)",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ali",
+            "email": "ali@brainlet.co"
+        }
+    ],
+    "require": {}
+}
